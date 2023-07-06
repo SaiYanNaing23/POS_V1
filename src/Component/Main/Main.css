@@ -1,0 +1,18 @@
+.main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+  .right-section-top {
+    border: 2px solid var(--dark-blue);
+    height: 70vh;
+    overflow-y: auto;
+  }
+  .right-section-bottom {
+    height: 10rem;
+    background-color: var(--light-blue);
+    padding: 2rem 0 0 3.5rem;
+  }
+
+  

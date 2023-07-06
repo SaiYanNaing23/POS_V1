@@ -1,0 +1,28 @@
+.right-section-bottom span:nth-child(1) {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .right-section-bottom span:nth-child(2) {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+  .right-section-bottom span:nth-child(3) {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+  .btn-buy{
+    display: block;
+    border: none;
+    width: 30%;
+    height: 3rem;
+    font-size: 1.8rem;
+    outline: none;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: .5rem;
+  }
