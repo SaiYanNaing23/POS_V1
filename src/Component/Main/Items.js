@@ -1,14 +1,14 @@
-import "./Items.css";
-
+import SingleItem from "./SingleItem";
 const Items = props =>{
+    const saveCartItemHandler = cartItem =>{
+        props.allCartItems(cartItem)
+    }
     return(
-        <div className="item">
-        <ul>
-        <li>Item Name</li>
-        <li>- 10000 MMK</li>
-        <li><i className="fa-solid fa-cart-shopping"></i></li>
-        </ul>
-    </div>
+        <>
+        {props.itemList.map((items) => (
+            <SingleItem key={items.itemId} itemList = {items} onSaveCartItem = {saveCartItemHandler}></SingleItem>
+        ))}
+        </>
     )
 }
 
